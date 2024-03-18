@@ -25,7 +25,7 @@ gem "cloudinary", "~> 1.23" # Client library for easily using the Cloudinary ser
 gem "counter_culture", "~> 3.2" # counter_culture provides turbo-charged counter caches that are kept up-to-date
 gem "ddtrace", "~> 1.0.0", require: "ddtrace/auto_instrument" # ddtrace is Datadog’s tracing client for Ruby.
 gem "devise", "~> 4.8" # Flexible authentication solution for Rails
-gem "devise_invitable", "~> 2.0.6" # Allows invitations to be sent for joining
+gem "devise_invitable", "~> 2.0.9" # Allows invitations to be sent for joining
 gem "dogstatsd-ruby", "~> 4.8" # A client for DogStatsD, an extension of the StatsD metric server for Datadog
 gem "email_validator", "~> 2.2" # Email validator for Rails and ActiveModel
 gem "emoji_regex", "~> 3.2" # A pair of Ruby regular expressions for matching Unicode Emoji symbols
@@ -57,7 +57,7 @@ gem "kaminari", "~> 1.2" # A Scope & Engine based, clean, powerful, customizable
 gem "katex", "~> 0.9.0" # This rubygem enables you to render TeX math to HTML using KaTeX. It uses ExecJS under the hood
 gem "liquid", "~> 5.3" # A secure, non-evaling end user template engine with aesthetic markup
 gem "metainspector", "~> 5.12" # To get and parse website metadata for Open Graph rich objects
-gem "nokogiri", "~> 1.13" # HTML, XML, SAX, and Reader parser
+gem "nokogiri", "~> 1.15" # HTML, XML, SAX, and Reader parser
 gem "octokit", "~> 4.22" # Simple wrapper for the GitHub API
 gem "oj", "~> 3.13" # JSON parser and object serializer
 gem "omniauth", "~> 2.1" # A generalized Rack framework for multiple-provider authentication
@@ -73,7 +73,7 @@ gem "pg", "~> 1.3" # Pg is the Ruby interface to the PostgreSQL RDBMS
 gem "pg_query", ">= 0.9.0" # Allows PGHero to analyze queries
 gem "pg_search", "~> 2.3.6" # PgSearch builds Active Record named scopes that take advantage of PostgreSQL's full text search
 gem "pghero", "~> 2.8" # Dashboard for Postgres
-gem "puma", "~> 5.6.4" # Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server
+gem "puma", "~> 5.6.8" # Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server
 gem "pundit", "~> 2.2" # Object oriented authorization for Rails applications
 gem "rack-attack", "~> 6.6.1" # Used to throttle requests to prevent brute force attacks
 gem "rack-cors", "~> 1.1" # Middleware that will make Rack-based apps CORS compatible
@@ -95,9 +95,9 @@ gem "rouge", "~> 3.28" # A pure-ruby code highlighter
 gem "rss", "~> 0.2.9" # Ruby's standard library for RSS
 gem "rubyzip", "~> 2.3" # Rubyzip is a ruby library for reading and writing zip files
 gem "s3_direct_upload", "~> 0.1" # Direct Upload to Amazon S3
-gem "sidekiq", "~> 6.4.2" # Sidekiq is used to process background jobs with the help of Redis
+gem "sidekiq", "~> 6.5.10" # Sidekiq is used to process background jobs with the help of Redis
 gem "sidekiq-cron", "~> 1.4" # Allows execution of scheduled cron jobs as specific times
-gem "sidekiq-unique-jobs", "~> 7.1.23" # Ensures that Sidekiq jobs are unique when enqueued
+gem "sidekiq-unique-jobs", "~> 7.1.33" # Ensures that Sidekiq jobs are unique when enqueued
 gem "slack-notifier", "~> 2.4" # A slim ruby wrapper for posting to slack webhooks
 gem "sprockets-rails", "~> 3.4" # Sprockets Rails integration
 gem "staccato", "~> 0.5" # Ruby Google Analytics Measurement
